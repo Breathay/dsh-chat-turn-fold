@@ -4,6 +4,20 @@
   "description": "DSH web plugin: Codex-style conversation folding — group consecutive tool calls into one collapsible box and collapse each finished turn into a summary card with the elapsed time / total token line on top (expandable to the full process).",
   "type": "module",
   "main": "lib/index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Breathay/dsh-chat-turn-fold.git"
+  },
+  "homepage": "https://github.com/Breathay/dsh-chat-turn-fold",
+  "keywords": [
+    "dsh",
+    "deepseek-harness",
+    "plugin",
+    "codex",
+    "conversation",
+    "fold",
+    "tool-calls"
+  ],
   "exports": {
     ".": "./lib/index.js",
     "./patches/*": "./patches/*",
